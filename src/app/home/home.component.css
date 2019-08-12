@@ -1,0 +1,44 @@
+button:hover{
+    font-size:1.2em;
+    color: green;
+    background-color: aliceblue;
+}
+
+.dbz{
+    margin-top: 20%;
+}
+
+.fa{
+    float: right;
+}
+.fa:hover{
+    color:red;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: #000000;
+    margin-left: 33px;
+    margin-right:33px;
+    float:left;
+}
+
+.activator{
+    color:#3aaaaa;
+    font-family: 'Ubuntu', sans-serif;
+    /* height: 150px; */
+}
+.text-darken-4{
+    font-family: 'Grenze', serif;
+
+}
+
+.container{
+    padding-top: 10%;
+}
+
+.card{
+    background-color: white;
+}
+

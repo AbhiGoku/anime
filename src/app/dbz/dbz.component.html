@@ -1,0 +1,70 @@
+<!-- <div class="card" (onclick)="clicked()">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="https://materializecss.com/images/office.jpg" height = '150' width ='100'>
+    </div>
+    <div class="card-content" (click)="clicked()" >
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+-->
+
+
+
+
+ 
+<div class="container">
+    <button routerLink = "" routerLinkActive = "active" class="btn btn-primary home_button" >
+        Home
+      </button>
+        <p>Dragon Ball Z World Welcomes u........</p>
+    <table class="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col" >#</th>
+            <th scope="col">Character</th>
+            <th scope="col">Image</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor ="let character of characters">
+                <td class="no">{{character.id}}</td>
+
+                
+                <td class = "character_name" (click)="google(character)"  > 
+                  <!-- {{character.name}} -->
+                
+                          <tr>
+                            <td>
+                              <div class="card" height ='100' width = '175.33'>
+                                
+                                <div class="card-body table-dark">
+                                  <h5 class="card-title" >{{character.name}}</h5>
+                                  <p class="card-text">{{character.about}}</p>
+                                  <a 
+                              href="https://www.google.com/search?q={{character.name}}&rlz=1C1GCEV_enUS856US856&oq={{character.name}}&aqs=chrome..69i57j0l2j69i60l3.2485j0j7&sourceid=chrome&ie=UTF-8&safe=active&ssui=on" 
+                                    class="btn btn-light" 
+                                    target='_blank'>
+                                      More Info 
+                                  </a>
+                                </div>
+                                
+                              </div>
+                            </td>
+                          </tr>
+                
+                </td>
+                <td > <img src={{character.img}} height ='170' width = '110'  alt="{{character.name}}" (click)="google(character)"> </td>
+            
+            </tr>
+            
+        </tbody>
+      </table>
+<script>
+ 
+</script>

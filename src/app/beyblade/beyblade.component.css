@@ -1,0 +1,40 @@
+.body{
+    background-color:black;
+}
+.card-text:hover{
+    
+    color: #000000;
+}
+
+.card-header{
+    color: rgb(203, 218, 223);
+    /* background-color: ;  */
+}
+.table{
+    border: 1px solid black;
+    box-shadow: 5px 10px #888888;
+}
+
+.no{
+    padding-top: 9%;
+}
+.card-text{
+    color: rgb(33, 138, 207);
+}
+
+.home_button{
+    float:right;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 20px;
+    color: yellow;
+}
+.active {
+    background-color: red;
+    color:rgb(14, 202, 177);
+  } 
+.table{
+    background: white;
+}

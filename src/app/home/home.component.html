@@ -1,0 +1,114 @@
+
+<div class="container">
+           <!-- <p>
+                <button routerLink = "/dbz" routerLinkActive = "active" class="btn btn-primary" >
+                    Dragon Ball Z
+                </button>
+            </p> -->
+        
+        
+            <!-- <div class="card">
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <img class="activator" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dragon_Ball_Z_Logo.png/330px-Dragon_Ball_Z_Logo.png" height="230" width="200">
+                </div>
+
+                <div class="card-footer  bg-transparent border-success">
+                  <span class="card-title activator grey-text ">Dragon Ball Z
+                     
+                  </span>
+                 
+                </div>
+
+                <div class="card-reveal" >
+                  <span class="card-title grey-text text-darken-4">ABOUT<i class="fa fa-window-close"></i></span>
+                  <p>Dragon Ball Z continues the adventures of Goku, who, along with his companions, defend the Earth against villains </p>
+                  <p>
+                    <button routerLink = "/dbz" routerLinkActive = "active" class="btn btn-primary dbz" >
+                        Dragon Ball Z
+                    </button>
+                  </p>
+                </div>
+                
+            </div>   
+          
+
+          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <img class="activator" src="https://cdn.shopify.com/s/files/1/0598/5581/products/pokemonLogo-01_1024x1024.jpg?v=1527194275" height="230" width="200">
+                </div>
+
+                <div class="card-footer  bg-transparent border-success">
+                  <span class="card-title activator grey-text ">Pokemon
+                  </span>
+                  
+                </div>
+            
+                <div class="card-reveal" >
+                  <span class="card-title grey-text text-darken-4">ABOUT<i class="fa fa-window-close"></i></span>
+                  <p> Ash Ketchum (known as Satoshi in Japan), a Pokémon Master in training he and a small group of friends travel around the world of Pokémon along with their Pokémon partners </p>
+                  <p>
+                    <button routerLink = "/pokemon" routerLinkActive = "active" class="btn btn-primary dbz" >
+                        Pokemon
+                    </button>
+                  </p>
+                </div>
+                
+          </div>  
+          
+          <div class="card">
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <img class="activator" src="https://www.pinclipart.com/picdir/middle/50-501396_beyblade-logo-clipart.png" height="230" width="200">
+                </div>
+
+                <div class="card-footer  bg-transparent border-success">
+                  <span class="card-title activator grey-text ">Beyblade
+                  </span>
+                </div>
+            
+                <div class="card-reveal" >
+                  <span class="card-title grey-text text-darken-4">ABOUT<i class="fa fa-window-close"></i></span>
+                  <p> A young man named Tyson (Takao Kinomiya) enters the Japan Regional Beyblade Qualifying Tournament, where he encounters Ray Kon (Rei Kon) and Kai Hiwatari,they form a team called as "BladeBreakers". </p>
+                  <p>
+                    <button routerLink = "/beyblade" routerLinkActive = "active" class="btn btn-primary dbz" >
+                        Beyblade
+                    </button>
+                  </p>
+                </div>
+                
+          </div>   -->
+
+
+
+
+
+          <div class="card" *ngFor="let anime of animes">
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <img class="activator" src={{anime.img}} height="300" width="250">
+                </div>
+
+                <!-- <div class="  bg-transparent border-success">
+                  <span class="card-title activator grey-text ">{{anime.name}}
+                     
+                  </span>
+                 
+                </div> -->
+
+                <div class="card-reveal" >
+                  <span class="card-title grey-text text-darken-4">ABOUT<i class="fa fa-window-close"></i></span>
+                  <p>{{anime.about}} </p>
+                  <p>
+                    <button routerLink = "/{{anime.url}}" routerLinkActive = "active" class="btn btn-primary dbz" >
+                        Click for Info
+                    </button>
+                  </p>
+                </div>
+                
+            </div>   
+
+
+</div>
+
+
+
+
+

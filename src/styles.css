@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.css' ; 
+
+
+
+h1{
+    font-family: 'Grenze', serif;
+    color: rgb(132, 322, 213);
+    letter-spacing: 10px;
+}
+
+body{
+    background: #00B4DB;  
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
+background: linear-gradient(to right, #0083B0, #00B4DB);
+
+}
+
+/* .table{
+    background: white;
+} */
+
+.home_button:hover{
+    color: green;
+    font-size: 1.1em;
+}
